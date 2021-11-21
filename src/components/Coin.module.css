@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2.5rem;
+  font-size: 0.8rem;
+  color: #212529;
+  border-bottom: 1px solid silver;
+}
+
+.container:last-child {
+  border: none;
+}
+.image {
+  width: 1.8rem;
+}
+
+.name {
+  width: 8.5rem;
+  font-size: 0.9rem;
+  margin-left: 1rem;
+  text-align: left;
+  font-weight: bold;
+  color: #333333;
+}
+
+.symbol {
+  text-align: left;
+  width: 6.25rem;
+}
+
+.currentPrice {
+  text-align: left;
+  width: 6.25rem;
+}
+
+.greenPriceChange,
+.redPriceChange {
+  width: 6.25rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.redPriceChange {
+  color: rgb(255, 38, 38);
+}
+
+.greenPriceChange {
+  color: rgb(0, 204, 0);
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0.4rem 1rem;
+  }
+
+  .image {
+    width: 1.4rem;
+  }
+
+  .name {
+    font-size: 0.6rem;
+  }
+
+  .symbol {
+    font-size: 0.6rem;
+  }
+
+  .currentPrice {
+    font-size: 0.6rem;
+  }
+
+  .marketCap {
+    font-size: 0.5rem;
+  }
+  .redPriceChange {
+    font-size: 0.6rem;
+  }
+
+  .greenPriceChange {
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .container {
+    padding: 0.1rem 0.5rem;
+  }
+
+  .image {
+    width: 0.9rem;
+  }
+
+  .name {
+    font-size: 0.4rem;
+  }
+
+  .symbol {
+    font-size: 0.4rem;
+  }
+
+  .currentPrice {
+    font-size: 0.4rem;
+  }
+
+  .marketCap {
+    font-size: 0.4rem;
+  }
+  .redPriceChange {
+    font-size: 0.4rem;
+  }
+
+  .greenPriceChange {
+    font-size: 0.4rem;
+  }
+}

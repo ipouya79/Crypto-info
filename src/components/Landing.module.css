@@ -1,0 +1,82 @@
+.headTitle {
+  font-size: 7.5vw;
+  line-height: 8vw;
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  background: url("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2021/06/top-cryptocurrencies.jpeg");
+  background-size: 40%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0.08);
+  animation: zoomout 10s ease 500ms forwards;
+}
+
+@keyframes zoomout {
+  from {
+    background-size: 40%;
+  }
+  to {
+    background-size: 10%;
+  }
+}
+
+.coinContainer {
+  margin: 3.12rem auto;
+  border: 1px solid silver;
+  border-radius: 10px;
+  width: fit-content;
+  background-color: #f6f6f6;
+}
+
+.input {
+  width: 54vw;
+  margin-top: 3.12rem;
+  border: 1px solid silver;
+  border-radius: 5px;
+  height: 1.1rem;
+  padding: 5px;
+  background-color: #f6f6f6;
+  transition: all 0.2s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: white;
+  background: white;
+  box-shadow: rgba(74, 74, 74, 0.24) 0px 3px 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .coinContainer {
+    width: 95%;
+  }
+
+  .input {
+    width: 93%;
+    margin-top: 3.12rem;
+    border: 1px solid silver;
+    border-radius: 5px;
+    height: 1.1rem;
+    padding: 5px;
+    background-color: #f6f6f6;
+    transition: all 0.2s ease;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .coinContainer {
+    width: 95%;
+  }
+
+  .input {
+    width: 93%;
+    margin-top: 3.12rem;
+    border: 1px solid silver;
+    border-radius: 5px;
+    height: 1.1rem;
+    padding: 5px;
+    background-color: #f6f6f6;
+    transition: all 0.2s ease;
+  }
+}
